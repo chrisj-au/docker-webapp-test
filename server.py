@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/api/service-test')
 def get_request():
-    return "Some test text"
+    return "service-test works"
 
 @app.route('/api/service-test/<key>')
 def abn(key):
